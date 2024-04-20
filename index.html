@@ -14,28 +14,49 @@
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/rajkumarm4/">Linkedin</a></li>
+                    <li><a href="https://github.com/not-rajkumar">Github</a></li>
                 </ul>
             </nav>
             <div class="header-txt">
-                <h1>Hello, this is <br><span>Rajkumar M</span></h1>
+                <h1>Hello, this is <br><span>Rajkumar M</span></h1> <br><br>
+                
             </div>
         </div>
     </header>
-    <div class="about">
-        <center><h1>About me</h1></center>
+    <div id="about" class="about">
+        <h1>About me</h1>
         <div class="container">
             <div class="p1">Current a second year student at Vellore Institute of Technology, pursuing B.Tech in
                 Computer Science and Engineering.</div>
             <div class="p2">Areas of expertise include web development, machine learning and artificial intelligence. I
                 am also passionate about web development, netwowking, and open source contributions.</div>
-            <div class="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, quas esse! Recusandae
-                magnam natus odio est suscipit optio ab, cumque animi corporis saepe quidem? Natus mollitia totam
-                consequuntur atque commodi.</div>
+            <div class="p3">Extracurricular activies include badminton, chess, speedcubing, painting to name a few.</div>
         </div>
     </div>
+
+    <footer id="contact">
+        <div class="contact">
+            <h1>Contact me</h1> <br><br>
+            <img src="img/email.svg" alt="">
+            <a href="mailto:rajkumar52k4@gmail.com">rajkumar52k4@gmail.com</a> <br><br>
+            <img src="img/phone.svg" alt="">
+            <a href="tel:1234567890">9036749738</a>
+        </div>
+        <div class="form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>
